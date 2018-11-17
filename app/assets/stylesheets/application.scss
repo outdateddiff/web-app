@@ -1,5 +1,11 @@
+@import 'blaze-css/src/blaze';
 @import 'landing_pages_controller';
 
 body {
   font-family: 'Spicy Rice', cursive;
+}
+
+.o-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
 }

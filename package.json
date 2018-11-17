@@ -1,5 +1,13 @@
 {
-  "name": "outdateddiff",
+  "name": "web-app",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "blaze-css": "^1.8.5"
+  },
+  "version": "0.0.1",
+  "description": "Some lousy or not so lousy app?",
+  "main": "config.ru",
+  "repository": "git@github.com:outdateddiff/web-app.git",
+  "author": "Outdated Diff <outdateddiff@gmail.com>",
+  "license": "MIT"
 }
