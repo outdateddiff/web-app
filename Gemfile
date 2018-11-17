@@ -29,6 +29,9 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'slim-rails'
 
+gem "comfortable_mexican_sofa", "~> 2.0.0"
+gem "comfy_blog", "~> 2.0.0"
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

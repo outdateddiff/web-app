@@ -9,7 +9,7 @@ html
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet"
   body
-    header
+    header.c-layout-header
       .o-wrapper
         .o-container
           .o-grid.o-grid--no-gutter
@@ -17,9 +17,13 @@ html
               img src="https://placeimg.com/240/100/any"
             .o-grid__cell.o-grid__cell--width-66
               p Lorem ipsum
-    main
+    nav.c-layout-navigation
+      = link_to 'Home', root_path
+      = link_to comfy_blog_posts_path(:page)
+        span Blog
+    main.c-layout-main
       = yield
-    footer
+    footer.c-layout-footer
       .o-wrapper
         p.u-text-center &copy; #{Time.current.year} Outdateddiff
 

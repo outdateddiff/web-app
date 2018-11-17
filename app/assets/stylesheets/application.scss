@@ -1,6 +1,8 @@
 @import 'blaze-css/src/blaze';
 @import 'landing_pages_controller';
 
+$gray: #ddd;
+
 body {
   font-family: 'Spicy Rice', cursive;
 }
@@ -8,4 +10,16 @@ body {
 .o-wrapper {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.c-layout-header {
+  background-color: $gray;
+}
+
+.c-layout-main {
+  background-color: lighten($gray, 10%);
+}
+
+.c-layout-footer {
+  background-color: $gray;
 }
